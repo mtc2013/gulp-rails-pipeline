@@ -14,7 +14,6 @@
   },
   "browserify": {
     "transform": [
-      "coffeeify"
     ]
   },
   "dependencies": {
@@ -53,6 +52,7 @@
     "watchify": "^2.2.1"
   },
   "devDependencies": {
-    "gulp-watch": "^4.1.1"
+    "gulp-watch": "^4.1.1",
+    "rewireify": "^0.2.4"
   }
 }
