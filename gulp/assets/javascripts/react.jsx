@@ -1,6 +1,6 @@
-ReactDOM = require('react-dom');
-React = require('react');
-ReactRouter = require('react-router');
+var ReactDOM = require('react-dom');
+var React = require('react');
+var ReactRouter = require('react-router');
 
 var helloMsg = React.createClass({
   render: function(){
@@ -19,3 +19,4 @@ function stuff(){
 }
 
 window.addEventListener("DOMContentLoaded",stuff);
+module.exports=helloMsg;

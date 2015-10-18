@@ -3,7 +3,7 @@
 module.exports = function(karma) {
   karma.set({
 
-    frameworks: [ 'mocha', 'browserify' ],
+    frameworks: [ 'mocha', 'browserify', 'phantomjs-shim' ],
 
     files: [
       'gulp/tests/*.js'
